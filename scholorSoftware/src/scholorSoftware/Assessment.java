@@ -1,3 +1,4 @@
+
 package scholorSoftware;
 
 public class Assessment {
@@ -12,7 +13,7 @@ public class Assessment {
     private String dueDateTime;
     private String hideDateTime;
 
-  
+    // Constructor initialises all assessment attributes.
     public Assessment(String name, String description, int points,
             String submissionType, boolean group, String groupingName,
             String publishDateTime, String dueDateTime,
@@ -29,7 +30,7 @@ public class Assessment {
         this.hideDateTime = hideDateTime;
     }
 
-    // Getters allow unit tests to verify stored attributes.
+    // Getter methods for checking stored information.
 
     public String getName() {
         return name;
